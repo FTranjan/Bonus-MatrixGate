@@ -10,9 +10,10 @@
 }
 
 #titulo {
-  font-style: oblique;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(177, 219, 10);
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  color: rgb(6, 236, 6);
   display: inline-flexbox;
   position: relative;
   left: 470px;
@@ -47,14 +48,14 @@ img {
 
 #botao {
   position: relative;
-  top: 450px;
-  color: rgb(177, 219, 10);
-  border: 50px;
-  border-radius: 5px;
-  background-color: #0a0a0a;
+  top: 430px;
+  color: rgb(6, 236, 6);
+  border: 80px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
   width: fit-content;
-  left: 850px;
-  font-size: xx-large;
+  left: 870px;
+  font-size: x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   padding: 20px 40px;
@@ -67,9 +68,9 @@ a:hover {
 #forgot {
   position: relative;
   text-align: center;
-  top: 480px;
+  top: 460px;
   text-decoration: none;
-  left: 890px;
+  left: 900px;
   color: aliceblue;
 }
 

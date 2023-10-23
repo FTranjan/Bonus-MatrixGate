@@ -43,35 +43,55 @@ video {
 img {
   position: absolute;
   width: 1200px;
-  object-fit: fill;
-  border: none;
+}
+
+#botao {
+  position: relative;
+  top: 450px;
+  color: rgb(177, 219, 10);
+  border: 50px;
+  border-radius: 5px;
+  background-color: #0a0a0a;
+  width: fit-content;
+  left: 850px;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding: 20px 40px;
 }
 
 a:hover {
-    text-decoration: none;
-    color: #d2b41e;
-  }
-  
-
-#botao {
-    position: relative;
-    top: 550px;
-    color: rgb(177, 219, 10);
-    border: 1px;
-    border-radius: 5px;
-    background-color: #0a0a0a;
-    width: fit-content;
-    left: 900px;
-    font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    }
-
+  text-decoration: none;
+  color: #d2b41e;
+}
 #forgot {
   position: relative;
   text-align: center;
-  top: 600px;
+  top: 480px;
   text-decoration: none;
-  left: 880px;
+  left: 890px;
+  color: aliceblue;
 }
 
+#form {
+  position: relative;
+}
+
+#email {
+  position: relative;
+  text-align: center;
+  top: 350px;
+  display: flex;
+  left: 750px;
+  font-size: xx-large;
+}
+
+#senha {
+  position: relative;
+  text-align: center;
+  display: flex;
+  top: 400px;
+  left: 750px;
+  font-size: xx-large;
+  
+}

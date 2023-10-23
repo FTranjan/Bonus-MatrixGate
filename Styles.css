@@ -1,65 +1,77 @@
 #caixa {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 1100px;
-    top: 100px;
-    left: 410px;
-    display: inline-flex;
-    position: absolute;
-    text-align: center;
-     }
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1100px;
+  top: 100px;
+  left: 410px;
+  display: inline-flex;
+  position: absolute;
+  text-align: center;
+}
 
 #titulo {
-    font-style: oblique;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(157, 193, 10);
-    display: inline-flexbox;
-    position: relative;
-    left: 470px
-    ;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(177, 219, 10);
+  display: inline-flexbox;
+  position: relative;
+  left: 470px;
 }
 
 video {
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .video {
-    position: absolute;
-    object-fit: cover;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 img {
-    position: absolute;
-    width: 1200px;
-    object-fit: fill;
-    border: none;
-
-}
-
-/* Text decoration do link não está funcionando, só com hover*/
-
-#forgot {
-    position: relative;
-    text-align: center;
-    top: 700px;
-    text-decoration:none;
+  position: absolute;
+  width: 1200px;
+  object-fit: fill;
+  border: none;
 }
 
 a:hover {
     text-decoration: none;
-    color: chocolate;
+    color: #d2b41e;
+  }
+  
+
+#botao {
+    position: relative;
+    top: 550px;
+    color: rgb(177, 219, 10);
+    border: 1px;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    width: fit-content;
+    left: 900px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    }
+
+#forgot {
+  position: relative;
+  text-align: center;
+  top: 600px;
+  text-decoration: none;
+  left: 880px;
 }
 
